@@ -1,6 +1,6 @@
 # IT-case-WeatherAPI-developer
 1. Clone the GitHub repository
-2. Create a .env file: Create a new file in the root directory of the project named .env and add the OpenWeatherMap API key i will provide in the email in the following format:
+2. Create a .env file: Create a new file in the root directory(my-app) of the project named .env and add the OpenWeatherMap API key i will provide in the email in the following format:
 REACT_APP_OPENWEATHERMAP_API_KEY=the_api_key_here
 3. Navigate to the root directory of the project in your terminal by typing:
   cd my-app
