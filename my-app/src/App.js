@@ -5,6 +5,7 @@ function App() {
   const [weather, setWeather] = useState([])
   const [location, setLocation] = useState();
   const [lastLocation, setLastLocation] = useState();
+  
   const fetchData = () => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`)
       .then(response => {
