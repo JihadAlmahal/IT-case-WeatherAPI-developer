@@ -1,0 +1,1 @@
+# IT-case-WeatherAPI-developer
